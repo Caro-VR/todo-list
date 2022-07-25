@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Todolist</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/b866bc2ef1.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    </head>
+
+    <body style="margin: 40px; background-color:#f4f4f4;">
+        <h1>Todo List</h1>
+        <hr style="background-color: black;">
+        <h6>Nueva Tarea</h6>
+        <input id="entrada" style="width: 80%;"> 
+        <button id="boton" style="background-color:#245c24; color: white;">Agregar</button> 
+        
+        <div style="padding: 15px;">
+            <p>Total: <span id="total">0</span></p> 
+            <p>Realizadas: <span id="realizada">0</span></p>
+        </div>
+
+        <table id="tabla" style="width: 40%; margin-left: auto;">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Tarea</th>
+                    <th>Checklist</th>
+                    <th>Eliminar</th>
+                </tr>
+            </thead>
+       
+            <tbody id="tbody">
+               
+            </tbody>
+        </table>
+
+       
+       
+  
+        
+
+       
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+        <script src="./assets/js/script.js"></script>
+    </body>
+
+</html>
